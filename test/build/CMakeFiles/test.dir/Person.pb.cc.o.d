@@ -255,5 +255,6 @@ CMakeFiles/test.dir/Person.pb.cc.o: \
  /usr/include/c++/13/compare \
  /usr/include/google/protobuf/map_type_handler.h \
  /usr/include/google/protobuf/extension_set.h /usr/include/c++/13/cassert \
+ /home/hgc/桌面/redis/test/Address.pb.h \
  /usr/include/google/protobuf/reflection_ops.h \
  /usr/include/google/protobuf/wire_format.h

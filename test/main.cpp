@@ -1,10 +1,12 @@
 #include <iostream>
 #include "Person.pb.h"
+// using namespace Dabing;
+// using namespace Erbing;
 using namespace std;
 
 int main() {
     // 序列化
-    Person p;
+    Erbing::Person p;
     p.set_id(10);
     p.set_age(32);
     p.set_sex("man");
@@ -16,13 +18,13 @@ int main() {
     p.add_name("Amy");
     p.mutable_addr()->set_addr("陕西省西安市");
     p.mutable_addr()->set_num(1001);
-    p.set_color(Color::Blue);
+    p.set_color(Erbing::Color::Blue);
 
     string output;
     p.SerializeToString(&output);
 
     // 反序列化
-    Person pp;
+    Erbing::Person pp;
     pp.ParseFromString(output);
     cout << pp.id() << endl;
     cout << pp.sex() << endl;

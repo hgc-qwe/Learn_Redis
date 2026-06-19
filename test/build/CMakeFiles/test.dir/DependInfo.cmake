@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/hgc/桌面/redis/test/Address.pb.cc" "CMakeFiles/test.dir/Address.pb.cc.o" "gcc" "CMakeFiles/test.dir/Address.pb.cc.o.d"
   "/home/hgc/桌面/redis/test/Person.pb.cc" "CMakeFiles/test.dir/Person.pb.cc.o" "gcc" "CMakeFiles/test.dir/Person.pb.cc.o.d"
   "/home/hgc/桌面/redis/test/main.cpp" "CMakeFiles/test.dir/main.cpp.o" "gcc" "CMakeFiles/test.dir/main.cpp.o.d"
   )
