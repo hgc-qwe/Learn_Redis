@@ -1,0 +1,3 @@
+/home/hgc/桌面/redis/test/build/CMakeFiles/test.dir
+/home/hgc/桌面/redis/test/build/CMakeFiles/edit_cache.dir
+/home/hgc/桌面/redis/test/build/CMakeFiles/rebuild_cache.dir
