@@ -16,6 +16,7 @@ int main() {
     p.add_name("Amy");
     p.mutable_addr()->set_addr("陕西省西安市");
     p.mutable_addr()->set_num(1001);
+    p.set_color(Color::Blue);
 
     string output;
     p.SerializeToString(&output);
@@ -34,4 +35,6 @@ int main() {
     for (int i = 0; i < size; i++) {
         cout << pp.name(i) << endl;
     }
+
+    cout << pp.color() << endl;
 }
